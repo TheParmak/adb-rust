@@ -10,6 +10,8 @@ fn main() {
     adb::adb("shell bu help", "bin/adb");
 }
 ```
+
+file structure
 ```
 ├── adb.rs //adb-rust code
 ├── bin

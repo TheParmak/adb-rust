@@ -10,3 +10,9 @@ fn main() {
     adb::adb("shell bu help", "bin/adb");
 }
 ```
+
+├── adb.rs //adb-rust code
+├── bin
+│   └── adb
+├── main //compiled binary
+├── main.rs //example code

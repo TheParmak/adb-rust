@@ -11,11 +11,11 @@ fn main() {
 }
 ```
 
-file structure
+file structure:
 ```
 ├── adb.rs //adb-rust code
-├── bin
-│   └── adb
+├── bin //bin folder
+│   └── adb //adb stand-alone binary
 ├── main //compiled binary
 ├── main.rs //example code
 ```

@@ -9,7 +9,3 @@ pub fn adb(args1: &str, adb_path: &str) {
     println!("{}", String::from_utf8_lossy(&output.stdout));
     println!("{}", String::from_utf8_lossy(&output.stderr));
 }
-
-fn main() {
-    adb("shell bu help", "bin/adb");
-}

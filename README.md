@@ -1,5 +1,5 @@
 # adb-rust
-a simple adb implemantation for rust
+a simple adb implementation for rust
 
 example usage with dynamic path variable: 
 ```rust
